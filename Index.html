@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tout Est Possible - Mouvement Citoyen</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(to right, #2ecc71, #3498db, #f39c12);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    nav {
+      background: #fff;
+      padding: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    nav a {
+      color: #3498db;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem 1rem;
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      margin-top: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+    .cta {
+      background: #f39c12;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+      border-radius: 8px;
+      font-size: 1.2rem;
+      margin: 2rem 0;
+      cursor: pointer;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 4rem;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 0.8rem;
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: #3498db;
+      color: white;
+      padding: 0.8rem 1.2rem;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+      border-radius: 12px;
+      margin-top: 1rem;
+    }
+    @media (min-width: 768px) {
+      nav {
+        justify-content: space-around;
+      }
+      iframe {
+        height: 400px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mouvement Tout Est Possible</h1>
+    <p><strong>"Ce n’est pas un rêve. C’est un début."</strong></p>
+  </header>
+
+  <nav>
+    <a href="#programme">Programme</a>
+    <a href="#engagez">Engagez-vous</a>
+    <a href="#evenements">Événements</a>
+    <a href="#video">Vidéo</a>
+    <a href="#comites">Comités</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="programme">
+    <h2>Notre programme</h2>
+    <p>Découvrez nos propositions pour transformer notre société : économie solidaire, écologie ambitieuse, santé publique renforcée, éducation égalitaire, et justice sociale concrète.</p>
+  </section>
+
+  <section id="engagez">
+    <h2>Engagez-vous</h2>
+    <p>Participez à nos actions locales, créez un comité citoyen, ou devenez bénévole. Chaque geste compte.</p>
+    <form>
+      <label for="nom">Nom :</label>
+      <input type="text" id="nom" name="nom" required>
+
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Comment souhaitez-vous contribuer ?</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Je m'engage</button>
+    </form>
+  </section>
+
+  <section id="evenements">
+    <h2>Événements à venir</h2>
+    <ul>
+      <li>15 juin : Lancement national à Paris</li>
+      <li>22 juin : Tournée citoyenne à Lyon</li>
+      <li>29 juin : Débat participatif à Marseille</li>
+    </ul>
+  </section>
+
+  <section id="video">
+    <h2>Vidéo de présentation</h2>
+    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Présentation du mouvement"></iframe>
+  </section>
+
+  <section id="comites">
+    <h2>Carte des comités citoyens</h2>
+    <iframe src="https://www.google.com/maps/d/embed?mid=1H7NzRZo3vG1g9Z8F7YXpAqmvjN" title="Carte des comités"></iframe>
+  </section>
+
+  <section id="contact">
+    <h2>Contactez-nous</h2>
+    <p>Une question ? Une idée ? Contactez notre équipe à <a href="mailto:contact@toutestpossible.org">contact@toutestpossible.org</a>.</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Mouvement Tout Est Possible - Tous droits réservés
+  </footer>
+</body>
+</html>
